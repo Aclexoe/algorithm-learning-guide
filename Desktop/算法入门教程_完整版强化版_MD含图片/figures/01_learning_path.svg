@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="310" viewBox="0 0 1100 310">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2454A6"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#F8FAFF"/>
+  <text x="550" y="45" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="bold" fill="#123E7C" text-anchor="middle">算法学习路线图</text>
+<rect x="70" y="100" width="160" height="95" rx="14" fill="#FFFFFF" stroke="#2454A6" stroke-width="2" filter="url(#shadow)"/>
+<text x="150" y="135" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#123E7C" text-anchor="middle">1 基础语法</text>
+<text x="150" y="166" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" fill="#334155" text-anchor="middle">能读懂代码</text>
+<line x1="230" y1="148" x2="275" y2="148" stroke="#2454A6" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="275" y="100" width="160" height="95" rx="14" fill="#FFFFFF" stroke="#2454A6" stroke-width="2" filter="url(#shadow)"/>
+<text x="355" y="135" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#123E7C" text-anchor="middle">2 复杂度</text>
+<text x="355" y="166" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" fill="#334155" text-anchor="middle">能判断效率</text>
+<line x1="435" y1="148" x2="480" y2="148" stroke="#2454A6" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="480" y="100" width="160" height="95" rx="14" fill="#FFFFFF" stroke="#2454A6" stroke-width="2" filter="url(#shadow)"/>
+<text x="560" y="135" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#123E7C" text-anchor="middle">3 数据结构</text>
+<text x="560" y="166" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" fill="#334155" text-anchor="middle">能选对容器</text>
+<line x1="640" y1="148" x2="685" y2="148" stroke="#2454A6" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="685" y="100" width="160" height="95" rx="14" fill="#FFFFFF" stroke="#2454A6" stroke-width="2" filter="url(#shadow)"/>
+<text x="765" y="135" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#123E7C" text-anchor="middle">4 基础算法</text>
+<text x="765" y="166" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" fill="#334155" text-anchor="middle">能解决常见题</text>
+<line x1="845" y1="148" x2="890" y2="148" stroke="#2454A6" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="890" y="100" width="160" height="95" rx="14" fill="#FFFFFF" stroke="#2454A6" stroke-width="2" filter="url(#shadow)"/>
+<text x="970" y="135" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#123E7C" text-anchor="middle">5 高级算法</text>
+<text x="970" y="166" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" fill="#334155" text-anchor="middle">能抽象问题</text>
+<text x="550" y="255" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" fill="#334155" text-anchor="middle">核心原则：理解思想 → 手写代码 → 跑样例 → 总结模板 → 迁移到新题</text>
+</svg>

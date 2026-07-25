@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2454A6"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#F8FAFF"/>
+  <text x="600" y="45" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="bold" fill="#123E7C" text-anchor="middle">二叉树遍历顺序示意</text>
+<line x1="600" y1="134" x2="430" y2="176" stroke="#94A3B8" stroke-width="3"/>
+<line x1="600" y1="134" x2="770" y2="176" stroke="#94A3B8" stroke-width="3"/>
+<line x1="430" y1="224" x2="340" y2="276" stroke="#94A3B8" stroke-width="3"/>
+<line x1="430" y1="224" x2="520" y2="276" stroke="#94A3B8" stroke-width="3"/>
+<line x1="770" y1="224" x2="700" y2="276" stroke="#94A3B8" stroke-width="3"/>
+<line x1="770" y1="224" x2="860" y2="276" stroke="#94A3B8" stroke-width="3"/>
+<circle cx="600" cy="110" r="26" fill="#EAF2FF" stroke="#2454A6" stroke-width="2" filter="url(#shadow)"/>
+<text x="600" y="116" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">A</text>
+<circle cx="430" cy="200" r="26" fill="#EAF2FF" stroke="#2454A6" stroke-width="2" filter="url(#shadow)"/>
+<text x="430" y="206" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">B</text>
+<circle cx="770" cy="200" r="26" fill="#EAF2FF" stroke="#2454A6" stroke-width="2" filter="url(#shadow)"/>
+<text x="770" y="206" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">C</text>
+<circle cx="340" cy="300" r="26" fill="#EAF2FF" stroke="#2454A6" stroke-width="2" filter="url(#shadow)"/>
+<text x="340" y="306" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">D</text>
+<circle cx="520" cy="300" r="26" fill="#EAF2FF" stroke="#2454A6" stroke-width="2" filter="url(#shadow)"/>
+<text x="520" y="306" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">E</text>
+<circle cx="700" cy="300" r="26" fill="#EAF2FF" stroke="#2454A6" stroke-width="2" filter="url(#shadow)"/>
+<text x="700" y="306" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">F</text>
+<circle cx="860" cy="300" r="26" fill="#EAF2FF" stroke="#2454A6" stroke-width="2" filter="url(#shadow)"/>
+<text x="860" y="306" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">G</text>
+<rect x="220" y="366" width="760" height="34" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+<text x="260" y="390" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold" fill="#123E7C" text-anchor="start">前序：根-左-右</text>
+<text x="510" y="390" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" fill="#334155" text-anchor="start">A B D E C F G</text>
+<rect x="220" y="411" width="760" height="34" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+<text x="260" y="435" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold" fill="#123E7C" text-anchor="start">中序：左-根-右</text>
+<text x="510" y="435" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" fill="#334155" text-anchor="start">D B E A F C G</text>
+<rect x="220" y="456" width="760" height="34" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+<text x="260" y="480" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold" fill="#123E7C" text-anchor="start">后序：左-右-根</text>
+<text x="510" y="480" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" fill="#334155" text-anchor="start">D E B F G C A</text>
+<rect x="220" y="501" width="760" height="34" rx="8" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+<text x="260" y="525" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="bold" fill="#123E7C" text-anchor="start">层序：逐层访问</text>
+<text x="510" y="525" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" fill="#334155" text-anchor="start">A B C D E F G</text>
+</svg>

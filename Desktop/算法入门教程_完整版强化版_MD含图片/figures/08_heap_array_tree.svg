@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="550" viewBox="0 0 1200 550">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2454A6"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#F8FAFF"/>
+  <text x="600" y="45" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="bold" fill="#123E7C" text-anchor="middle">堆的数组表示与树形结构</text>
+<rect x="190" y="85" width="80" height="50" rx="6" fill="#EAF2FF" stroke="#2454A6" stroke-width="2"/>
+<text x="230" y="116" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">10</text>
+<text x="230" y="155" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="middle">0</text>
+<rect x="300" y="85" width="80" height="50" rx="6" fill="#EAF2FF" stroke="#2454A6" stroke-width="2"/>
+<text x="340" y="116" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">9</text>
+<text x="340" y="155" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="middle">1</text>
+<rect x="410" y="85" width="80" height="50" rx="6" fill="#EAF2FF" stroke="#2454A6" stroke-width="2"/>
+<text x="450" y="116" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">8</text>
+<text x="450" y="155" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="middle">2</text>
+<rect x="520" y="85" width="80" height="50" rx="6" fill="#EAF2FF" stroke="#2454A6" stroke-width="2"/>
+<text x="560" y="116" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">7</text>
+<text x="560" y="155" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="middle">3</text>
+<rect x="630" y="85" width="80" height="50" rx="6" fill="#EAF2FF" stroke="#2454A6" stroke-width="2"/>
+<text x="670" y="116" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">6</text>
+<text x="670" y="155" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="middle">4</text>
+<rect x="740" y="85" width="80" height="50" rx="6" fill="#EAF2FF" stroke="#2454A6" stroke-width="2"/>
+<text x="780" y="116" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">5</text>
+<text x="780" y="155" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="middle">5</text>
+<rect x="850" y="85" width="80" height="50" rx="6" fill="#EAF2FF" stroke="#2454A6" stroke-width="2"/>
+<text x="890" y="116" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#0F172A" text-anchor="middle">4</text>
+<text x="890" y="155" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13" font-weight="normal" fill="#64748B" text-anchor="middle">6</text>
+<text x="600" y="190" font-family="Arial, Microsoft YaHei, sans-serif" font-size="16" font-weight="normal" fill="#334155" text-anchor="middle">父节点索引：(i - 1) // 2；左子节点：2i + 1；右子节点：2i + 2</text>
+<line x1="600" y1="274" x2="430" y2="316" stroke="#94A3B8" stroke-width="3"/>
+<line x1="600" y1="274" x2="770" y2="316" stroke="#94A3B8" stroke-width="3"/>
+<line x1="430" y1="364" x2="330" y2="406" stroke="#94A3B8" stroke-width="3"/>
+<line x1="430" y1="364" x2="520" y2="406" stroke="#94A3B8" stroke-width="3"/>
+<line x1="770" y1="364" x2="690" y2="406" stroke="#94A3B8" stroke-width="3"/>
+<line x1="770" y1="364" x2="860" y2="406" stroke="#94A3B8" stroke-width="3"/>
+<circle cx="600" cy="250" r="28" fill="#FFF4E6" stroke="#D97706" stroke-width="2" filter="url(#shadow)"/>
+<text x="600" y="256" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#B45309" text-anchor="middle">10</text>
+<circle cx="430" cy="340" r="28" fill="#FFF4E6" stroke="#D97706" stroke-width="2" filter="url(#shadow)"/>
+<text x="430" y="346" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#B45309" text-anchor="middle">9</text>
+<circle cx="770" cy="340" r="28" fill="#FFF4E6" stroke="#D97706" stroke-width="2" filter="url(#shadow)"/>
+<text x="770" y="346" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#B45309" text-anchor="middle">8</text>
+<circle cx="330" cy="430" r="28" fill="#FFF4E6" stroke="#D97706" stroke-width="2" filter="url(#shadow)"/>
+<text x="330" y="436" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#B45309" text-anchor="middle">7</text>
+<circle cx="520" cy="430" r="28" fill="#FFF4E6" stroke="#D97706" stroke-width="2" filter="url(#shadow)"/>
+<text x="520" y="436" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#B45309" text-anchor="middle">6</text>
+<circle cx="690" cy="430" r="28" fill="#FFF4E6" stroke="#D97706" stroke-width="2" filter="url(#shadow)"/>
+<text x="690" y="436" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#B45309" text-anchor="middle">5</text>
+<circle cx="860" cy="430" r="28" fill="#FFF4E6" stroke="#D97706" stroke-width="2" filter="url(#shadow)"/>
+<text x="860" y="436" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="bold" fill="#B45309" text-anchor="middle">4</text>
+<text x="600" y="505" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" fill="#334155" text-anchor="middle">最大堆：父节点 ≥ 子节点，因此堆顶永远是最大值。</text>
+</svg>

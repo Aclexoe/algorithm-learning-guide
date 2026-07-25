@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2454A6"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <rect width="100%" height="100%" fill="#F8FAFF"/>
+  <text x="600" y="45" font-family="Arial, Microsoft YaHei, sans-serif" font-size="24" font-weight="bold" fill="#123E7C" text-anchor="middle">栈与队列的操作方向</text>
+<text x="220" y="95" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#123E7C" text-anchor="middle">栈 Stack：后进先出 LIFO</text>
+<rect x="140" y="140" width="160" height="50" rx="8" fill="#EAF2FF" stroke="#2454A6" stroke-width="2"/>
+<text x="220" y="172" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" fill="#0F172A" text-anchor="middle">30 顶部</text>
+<rect x="140" y="198" width="160" height="50" rx="8" fill="#EAF2FF" stroke="#2454A6" stroke-width="2"/>
+<text x="220" y="230" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" fill="#0F172A" text-anchor="middle">20</text>
+<rect x="140" y="256" width="160" height="50" rx="8" fill="#EAF2FF" stroke="#2454A6" stroke-width="2"/>
+<text x="220" y="288" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" fill="#0F172A" text-anchor="middle">10 底部</text>
+<line x1="360" y1="110" x2="285" y2="145" stroke="#2454A6" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="390" y="110" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" fill="#334155" text-anchor="start">push / pop 都在栈顶</text>
+<text x="800" y="95" font-family="Arial, Microsoft YaHei, sans-serif" font-size="20" font-weight="bold" fill="#0F6B42" text-anchor="middle">队列 Queue：先进先出 FIFO</text>
+<rect x="570" y="165" width="90" height="55" rx="8" fill="#EAFBF1" stroke="#059669" stroke-width="2"/>
+<text x="615" y="199" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" fill="#0F172A" text-anchor="middle">10</text>
+<rect x="685" y="165" width="90" height="55" rx="8" fill="#EAFBF1" stroke="#059669" stroke-width="2"/>
+<text x="730" y="199" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" fill="#0F172A" text-anchor="middle">20</text>
+<rect x="800" y="165" width="90" height="55" rx="8" fill="#EAFBF1" stroke="#059669" stroke-width="2"/>
+<text x="845" y="199" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" fill="#0F172A" text-anchor="middle">30</text>
+<rect x="915" y="165" width="90" height="55" rx="8" fill="#EAFBF1" stroke="#059669" stroke-width="2"/>
+<text x="960" y="199" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="normal" fill="#0F172A" text-anchor="middle">40</text>
+<line x1="525" y1="192" x2="570" y2="192" stroke="#059669" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="520" y="150" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" fill="#334155" text-anchor="middle">出队</text>
+<line x1="1035" y1="192" x2="1030" y2="192" stroke="#059669" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="1030" y1="192" x2="990" y2="192" stroke="#059669" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1020" y="150" font-family="Arial, Microsoft YaHei, sans-serif" font-size="15" font-weight="normal" fill="#334155" text-anchor="middle">入队</text>
+<text x="600" y="335" font-family="Arial, Microsoft YaHei, sans-serif" font-size="17" font-weight="normal" fill="#334155" text-anchor="middle">记忆口诀：栈像一摞盘子；队列像排队买票。</text>
+</svg>
